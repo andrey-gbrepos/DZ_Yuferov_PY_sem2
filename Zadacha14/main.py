@@ -8,13 +8,7 @@ print('\n Программа выводит все целые степени д�
 nat_num = int(input("Введите натуральное число: "))
 print('Найденные степени двойки:')
 pow = 1
-for i in range(nat_num):
-    if pow <= nat_num: 
-        print(pow, end=' ')
-        pow *= 2
-    else:
-        break
+while pow <= nat_num:
+    print(pow, end=' ')
+    pow *= 2
 print('\n')
-
-
-
